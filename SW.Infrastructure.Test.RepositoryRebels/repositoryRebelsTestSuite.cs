@@ -15,7 +15,7 @@ namespace SW.Infrastructure.Test.RepositoryRebels
             // Act
             Rebel result = rebelsRepo.Create(rebel);
 
-            // Assert
+            // Asserta
             Assert.NotNull(result);
         }
     }
